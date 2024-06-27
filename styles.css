@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background: url(stars.png);
+    background-size: cover;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+
+
+h1, h3, p {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 55px;
+    padding-bottom: 70px;
+}
+
+h3 {
+    font-size: 35px
+}
+
+p {
+    font-size: 25px;
+}
+
+a {
+    color: rgb(0 255 161);
+}
+
+ul {
+    max-width: 650px;
+    margin: 15px auto;
+}
+
+li {
+    padding: 5px;
+}
+
+button {
+    text-align: center;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    padding: 0.375rem 0.75rem;
+    margin: 10px auto;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    background-color: rgb(0 255 161);
+    color: black;
+}
+
+.content {
+    padding-bottom: 180px;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 50px;
+        padding-bottom: 40px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 35px;
+    }
+
+    li {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .content {
+        padding-bottom: 80px;
+    }
+
+    body {
+        overflow: auto;
+        height: auto;
+    }
+
+    #email-address {
+        font-size: 25px;
+    }
+}
+
